@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Satisfy&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Righteous', cursive;
+}
+
+p{
+	margin-bottom: 15px;
+	font-size: 14px;
+	line-height: 20px;
+  color: #a9a9a9;
+  
+}
+
+/*  headline & tagline adjust font and margin */
+
+
+.banner_image p {
+  width: 35ch;
+  color: black;
+  font-family: 'Satisfy', cursive;
+  font-size: 20px;
+}
+
+
+/* Banner Image */
+
+
+.banner_image{
+	background: url("amu.jpg") no-repeat top center;
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner_content{
+	text-align: center;
+	color: #fff;
+}
+
+.banner_content h1{
+	text-transform: uppercase;
+	line-height: 38px;
+	margin-bottom: 15px;
+}
+
+.banner_content h1 span{
+	color: blueviolet;
+}
+
+h1.title{
+	margin-bottom: 20px;
+	color: #444444;
+	font-family: 'Righteous', cursive;
+	text-transform: uppercase;
+	font-size: 38px;
+	word-spacing: 25px;
+	letter-spacing: 5px;
+}
+
+
+
+.main {
+	position: relative;
+}
+
+
+
+/* Navigation bar */
+
+
+.navbar{
+	width: 100%;
+	height: 65px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: absolute;
+}
+
+.logo a{
+	font-family: 'Satisfy', cursive;
+	font-size: 32px;
+	color: blueviolet;
+}
+
+.navbar .navbar_items ul{
+	display: flex;
+}
+
+
+.navbar .navbar_items ul li{
+	text-transform: uppercase;
+	margin: 0 10px;
+}
+
+
+
+/* make button green (register) */
+
+.navbar_items ul li a.current {
+  background-color: green;
+  border-radius: 2px;
+
+}
+
+.navbar_items ul li a.current:hover {
+  background-color: rgb(116, 209, 116);
+  border-radius: 2px;
+
+}
+
+
+/* navigation bar font & color */
+
+.navbar_items ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  padding: 3px 10px;
+  transition: .3s;
+}
+
+/* active/ hover for nav items */
+
+.navbar ul li a:active {
+  background-color: blueviolet;
+  border-radius: 2px;
+}
+
+.navbar ul li a:hover {
+  background-color: blueviolet;
+  border-radius: 2px;
+}
+
+
+
+/* gallery */
+
+
+.Gallery {
+	padding: 5% 10%;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* header, make it pretty */
+.Gallery h1 {
+  
+  text-transform: uppercase;
+  
+  
+  font-family: 'Satisfy', cursive;
+}
+
+
+/* optmiizing card size for images  */
+
+.card {
+  margin: 1em auto;
+  margin-bottom: 4rem;
+  min-width: 20ch;
+  max-width: 30ch;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+
+.card p {
+  text-align: center;
+}
+img {
+  width: 100%;
+}
+
+/* make it pretty */
+
+
+h1, h2 {
+  text-align: center;
+}
+
+.card {  
+  border: 1px solid grey;
+  padding: 1em;
+}
+
+img {
+  padding-bottom: 1em;
+}
+
+
+/* team cards */
+
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  
+}
+
+.card2 {
+  margin: 1em auto;
+  margin-bottom: 4rem;
+  min-width: 20ch;
+  max-width: 30ch;
+  
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+.card2 p {
+  text-align: center;
+}
+.card2 img {
+  width: 100%;
+}
+
+/******************/
+/* Make it Pretty */
+/******************/
+
+
+
+.card2 {  
+  border: 1px solid grey;
+  padding: 1em;
+}
+
+ .card2 img {
+  padding-bottom: 1em;
+}
+
+
+/* Contact */
+
+.contact {
+  padding: 5% 10%;
+  text-align: center;
+}
+
+.contact h1 {
+  text-transform: uppercase;
+  
+  
+  font-family: 'Satisfy', cursive;
+
+}
+
+
+
+/* forms */
+
+.form_wrappper {
+  margin-top: 2rem;
+  line-height: 80px;
+
+}
+
+
+
+
+/* text fields  */
+
+.form_input{
+  margin-bottom: 15px;
+
+}
+
+
+.form_input p input[type="text"]{
+	width: 250px;
+	padding: 12px 20px;
+  border: 1px solid #ccc;
+  
+}
+
+.form_input p input[type="email"]{
+	width: 250px;
+	padding: 12px 20px;
+  border: 1px solid #ccc;
+  
+}
+
+.form_input p input[type="password"]{
+	width: 250px;
+	padding: 12px 20px;
+	border: 1px solid #ccc;
+}
+
+
+/* design message field ( make a lil bigger )  */
+
+.form_input p textarea{
+	width: 250px;
+	padding: 12px 20px;
+	height: 90px;
+	resize: none;
+	border: 1px solid #ccc;
+}
+
+
+
+
+
+/* button design */
+
+button {
+  cursor: pointer;
+	display: block;
+	width: 180px;
+	height: 35px;
+	border: 2px solid blueviolet;
+	line-height: 35px;
+	margin: 25px auto 0;
+	color: blueviolet;
+	text-align: center;
+}
+
+
+
+
+
+
+
+/* team cards */
+
+.the_team {
+  margin-top: 3rem;
+    
+}
+
+.the_team h1 {
+  font-family: 'Satisfy', cursive;
+}
+
+/* login */
+.login {
+  margin-top: 2rem;
+  
+  text-align: center;
+  
+}
+
+
+/* make it pretty */
+.login h1 {
+  font-family: 'Satisfy', cursive;
+
+}
+
+
+/* register */
+
+.register {
+  margin-top: 4rem;
+
+  
+  text-align: center;
+  
+}
+
+/* footer */
+.footer_bottom {
+  margin-top: 2rem;
+	width: 100%;
+	text-align: center;
+	background: #444444;
+  padding: 15px 0;
+  
+}
+
+.footer_bottom a{
+	color: #fff;
+}
+
+
+/* media query to fix mobile screen etc */
+
+
+@media (max-width: 720px){
+	.navbar{
+		height: auto;
+		flex-direction: column;
+	}
+
+	.navbar ul{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.logo{
+		margin-bottom: 25px;
+	}
+
+	.navbar ul li{
+		margin-bottom: 5px;
+	}
+
+	.banner_content{
+		margin-top: 8rem;
+	}
+}
